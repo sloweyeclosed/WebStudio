@@ -26,12 +26,12 @@ p {
 .section-hero {
     background-color: #2F303A;
 }
-.select-category > li > button {
+.select-category  button {
     background-color: #F5F4FA;
     color: black;
     border: none;
 }
-.select-category > li > button:hover {
+.select-category button:hover {
     background-color: #2196F3;
     color: white;
 }
