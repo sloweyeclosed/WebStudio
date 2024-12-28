@@ -1,15 +1,12 @@
 
-body {
-    background-color: whitesmoke
-}
-/* тут белый текст я сделал это чтобы видно было это временно */
+
 a {
     color: black;
 }
 a:hover {
     color: #2196F3;
 }
-header > a > span {
+ a > span {
     color: #2196F3;
 }
 .button-hero-section {
@@ -23,4 +20,7 @@ h1 {
 }
 p {
     color: #757575
+}
+.section-hero {
+    background-color: #2F303A;
 }
