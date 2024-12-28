@@ -1,0 +1,26 @@
+
+body {
+    background-color: whitesmoke
+}
+/* тут белый текст я сделал это чтобы видно было это временно */
+a {
+    color: black;
+}
+a:hover {
+    color: #2196F3;
+}
+header > a > span {
+    color: #2196F3;
+}
+.button-hero-section {
+    background-color: #2196F3;
+    color: white;
+    width: 216px;
+    height: 50px;
+}
+h1 {
+    color: white
+}
+p {
+    color: #757575
+}
