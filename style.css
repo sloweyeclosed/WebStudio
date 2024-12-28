@@ -3,9 +3,11 @@
 a {
     color: black;
 }
-a:hover {
+
+nav > ul > li > a:hover {
     color: #2196F3;
 }
+
  a > span {
     color: #2196F3;
 }
@@ -23,4 +25,25 @@ p {
 }
 .section-hero {
     background-color: #2F303A;
+}
+.select-category > li > button {
+    background-color: #F5F4FA;
+    color: black;
+    border: none;
+}
+.select-category > li > button:hover {
+    background-color: #2196F3;
+    color: white;
+}
+footer {
+    background-color: #2F303A;
+}
+footer ul a {
+    color: white;
+}
+.adress {
+    opacity: 60%;
+}
+.info {
+    color: #2196F3;
 }
