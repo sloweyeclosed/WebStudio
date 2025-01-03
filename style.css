@@ -1,53 +1,9 @@
-a {
-    color: black;
-}
-
-nav > ul > li > a:hover {
-    color: #2196F3;
-}
-
- a > span {
-    color: #2196F3;
-}
-.button-hero-section {
-    background-color: #2196F3;
-    color: white;
-    width: 216px;
-    height: 50px;
-}
-h1 {
-    color: white
-}
-p {
-    color: #757575
-}
-.section-hero {
-    background-color: #2F303A;
-}
-.select-category  button {
-    background-color: #F5F4FA;
-    color: black;
-    border: none;
-}
-.select-category button:hover {
-    background-color: #2196F3;
-    color: white;
-}
-footer {
-    background-color: #2F303A;
-}
-footer ul a {
-    color: white;
-}
-.color-blue {
-    color: #2196F3;
-}
-nav a[href^="mailto:"] {
-    color:#2196F3;
-}
-a[href^="tel:"] {
-    opacity: 60%;
-}
-footer a[href^="mailto:"] {
-    opacity: 60%;
+:root {
+    --hover-button-span: #2196F3;
+    --logo: #000000;
+    --title-nav-h: #212121;
+    --p-title: #757575;
+    --hero-section-footer-bg: #2F303A;
+    --teams-bg-button-port: #F5F4FA;
+    --bg-text-footer: #FFFFFF;
 }
