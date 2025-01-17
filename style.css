@@ -7,3 +7,10 @@
     --teams-bg-button-port: #F5F4FA;
     --bg-text-footer: #FFFFFF;
 }
+header > a ,  footer > a{
+    font-family: "Raleway", serif;
+}
+body {
+    font-family: "Roboto", serif;
+
+}
