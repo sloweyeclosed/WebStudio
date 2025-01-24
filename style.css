@@ -25,7 +25,7 @@ body {
 /* header  */
 
 
-.header-footer-logo {
+.logo {
     color: var(--logo);
     font-size: 26px;
     font-style: normal;
@@ -33,30 +33,34 @@ body {
 
 }
 
-.logo-span {
+.logo-wrap {
     color: var(--hover-button-span);
 }
 
-.nav-link {
+.header-link {
     color: var(--title-nav-h);
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
 }
 
-.select-link {
+/* .select-link {
+    color: var(--hover-button-span);
+} */
+
+nav  a[href="#"] {
     color: var(--hover-button-span);
 }
 
-.nav-link:hover {
+.header-link:hover {
     color: var(--hover-button-span);
 }
 
-.nav-address {
+.header-address {
     color: var(--p-title);
 }
 
-.nav-email {
+.header-email {
     color: var(--hover-button-span);
 }
 
@@ -109,6 +113,7 @@ body {
 
 /* team  */
 
+
 .team-item-name {
     color: var(--title-nav-h);
     font-size: 16px;
@@ -123,7 +128,7 @@ body {
     letter-spacing: 0.48px;
 }
 
-footer .header-footer-logo {
+footer .logo {
     color: var(--bg-text-footer);
     letter-spacing: 0.78px;
 }
