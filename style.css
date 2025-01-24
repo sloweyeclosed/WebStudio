@@ -28,7 +28,6 @@ body {
 .logo {
     color: var(--logo);
     font-size: 26px;
-    font-style: normal;
     line-height: normal;
 
 }
