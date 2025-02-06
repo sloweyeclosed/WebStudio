@@ -1,186 +1,181 @@
 :root {
-    --hover-button-span: #2196F3;
-    --logo: #000000;
-    --title-nav-h: #212121;
-    --p-title: #757575;
-    --hero-section-footer-bg: #2F303A;
-    --teams-bg-button-port: #F5F4FA;
-    --bg-text-footer: #FFFFFF;
-    --footer-address: rgba(255, 255, 255, 0.60);
+  --hover-button-span: #2196f3;
+  --logo: #000000;
+  --title-nav-h: #212121;
+  --p-title: #757575;
+  --hero-section-footer-bg: #2f303a;
+  --teams-bg-button-port: #f5f4fa;
+  --bg-text-footer: #ffffff;
+  --footer-address: rgba(255, 255, 255, 0.6);
 }
-
-header>a,
-footer>a {
-    font-family: "Raleway", serif;
+.container {
+  width: 1170px;
+  margin: 0 auto;
 }
 
 body {
-    font-family: "Roboto", serif;
-    font-style: normal;
-    font-weight: 700;
+  font-family: "Roboto", serif;
+  font-style: normal;
+  font-weight: 700;
 }
 
 /* text style  */
 
 /* header  */
 
-
 .logo {
-    color: var(--logo);
-    font-size: 26px;
-    line-height: normal;
-
+  color: var(--logo);
+  font-size: 26px;
+  line-height: normal;
+  font-family: "Raleway", serif;
 }
 
 .logo-wrap {
-    color: var(--hover-button-span);
+  color: var(--hover-button-span);
 }
 
 .header-link {
-    color: var(--title-nav-h);
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.28px;
+  color: var(--title-nav-h);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
 }
 
 /* .select-link {
     color: var(--hover-button-span);
 } */
 
-nav  a[href="#"] {
-    color: var(--hover-button-span);
+nav a[href="#"] {
+  color: var(--hover-button-span);
 }
 
 .header-link:hover {
-    color: var(--hover-button-span);
+  color: var(--hover-button-span);
 }
 
 .header-address {
-    color: var(--p-title);
+  color: var(--p-title);
 }
 
 .header-email {
-    color: var(--hover-button-span);
+  color: var(--hover-button-span);
 }
 
 /* hero  */
 
 .hero-title {
-    color: var(--bg-text-footer);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 44px;
-    font-weight: 900;
-    line-height: calc(60/44);
-    letter-spacing: 2.64px;
-    text-transform: uppercase;
+  color: var(--bg-text-footer);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: calc(60 / 44);
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
 }
 
 .hero-button {
-    color: var(--bg-text-footer);
-    background-color: var(--hover-button-span);
-    font-size: 16px;
-    font-weight: inherit;
-    width: 216px;
-    height: 50px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    line-height: calc(30/16);
-    letter-spacing: 0.96px;
+  color: var(--bg-text-footer);
+  background-color: var(--hover-button-span);
+  font-size: 16px;
+  font-weight: inherit;
+  width: 216px;
+  height: 50px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.96px;
 }
 
 /* benefits  */
 
 .benefist-item-title {
-    color: var(--title-nav-h);
-    font-size: 14px;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
+  color: var(--title-nav-h);
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
 }
 
 .benefist-item-text {
-    color: var(--p-title);
-    font-weight: 400;
-    line-height: calc(24/14);
-    font-size: 14px;
+  color: var(--p-title);
+  font-weight: 400;
+  line-height: calc(24 / 14);
+  font-size: 14px;
 }
 
 .section-name {
-    color: var(--title-nav-h);
-    font-size: 36px;
-    letter-spacing: 1.08px;
+  color: var(--title-nav-h);
+  font-size: 36px;
+  letter-spacing: 1.08px;
 }
 
 /* team  */
 
-
 .team-item-name {
-    color: var(--title-nav-h);
-    font-size: 16px;
-    letter-spacing: 0.48px;
-    font-weight: 500;
+  color: var(--title-nav-h);
+  font-size: 16px;
+  letter-spacing: 0.48px;
+  font-weight: 500;
 }
 
 .team-item-role {
-    color: var(--p-title);
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0.48px;
+  color: var(--p-title);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.48px;
 }
 
 footer .logo {
-    color: var(--bg-text-footer);
-    letter-spacing: 0.78px;
+  color: var(--bg-text-footer);
+  letter-spacing: 0.78px;
 }
 
 .footer-link {
-    color: var(--bg-text-footer);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: calc(24/14);
-    letter-spacing: 0.42px;
+  color: var(--bg-text-footer);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.42px;
 }
 
 .footer-addres {
-    color: var(--footer-address);
+  color: var(--footer-address);
 }
-
 
 /* portfolio  */
 .category-button {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    width: 125px;
-    height: 38px;
-    border-radius: 4px;
-    border: transparent;
-    background-color: var(--teams-bg-button-port);
-    color: var(--title-nav-h);
-    line-height: calc(26/16);
-    letter-spacing: 0.48px;
-
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  width: 125px;
+  height: 38px;
+  border-radius: 4px;
+  border: transparent;
+  background-color: var(--teams-bg-button-port);
+  color: var(--title-nav-h);
+  line-height: calc(26 / 16);
+  letter-spacing: 0.48px;
 }
 .category-button:hover {
-    background-color: var(--hover-button-span);
-    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
-    color: white;
+  background-color: var(--hover-button-span);
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+  color: white;
 }
-.all-categorys button{
-    width: 73px;
-    height: 38px;
+.all-categorys button {
+  width: 73px;
+  height: 38px;
 }
 
 /* product  */
 
 .project-name {
-    font-size: 18px;
-    color: var(--hero-section-footer-bg);
-    line-height: calc(36/16);
-    letter-spacing: 1.08px;
-
+  font-size: 18px;
+  color: var(--hero-section-footer-bg);
+  line-height: calc(36 / 16);
+  letter-spacing: 1.08px;
 }
 .project-info {
-    color: var(--p-title);
-    font-weight: 400;
-    line-height: calc(30/16);
-    letter-spacing: 0.48px;
+  color: var(--p-title);
+  font-weight: 400;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.48px;
 }
