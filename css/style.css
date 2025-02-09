@@ -62,6 +62,9 @@ nav {
 
 .header-address {
   margin-left: auto;
+  a:first-child {
+     color: var(--hover-button-span);
+  }
   a:last-child {
     padding-left: 50px;
   }
