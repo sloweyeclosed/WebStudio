@@ -147,10 +147,12 @@ nav a[href="#"] {
 .advantages {
   padding-top: 94px;
 }
+
 .advantages-list {
-  justify-content: space-around;
+  justify-content: space-between;
   display: flex;
 }
+
 .advantages-item {
   max-width: 270px;
 }
@@ -180,8 +182,8 @@ nav a[href="#"] {
 }
 
 .service-img {
-  min-width: 370px;
-  min-height: 294px;
+  width: 370px;
+  height: 294px;
 }
 
 .service-wrapper {
