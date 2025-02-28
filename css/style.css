@@ -154,7 +154,33 @@ nav a[href="#"] {
 }
 
 .advantages-item {
-  max-width: 270px;
+  width: 100%;
+}
+
+.antena-svg::before {
+  background: url("../icon/antenna.svg") center no-repeat;
+}
+.watch-svg::before {
+  background: url("../icon/watch.svg") center no-repeat;
+}
+.comp-svg::before {
+  background: url("../icon/comp.svg") center no-repeat;
+}
+.planet-svg::before {
+  background: url("../icon/antenna.svg") center no-repeat;
+}
+
+.advantages-item::before {
+  content: "";
+  display: block;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  height: 120px;
+  background-color: var(--teams-bg-button-port);
+}
+
+.advantages-item:not(:last-of-type):before {
+  margin-right: 30px;
 }
 
 .advantages-title {
