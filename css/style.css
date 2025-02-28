@@ -183,7 +183,6 @@ nav a[href="#"] {
 
 .service-img {
   width: 370px;
-  height: 294px;
 }
 
 .service-wrapper {
@@ -302,9 +301,8 @@ nav a[href="#"] {
 }
 
 .product-item {
-  width: 370px;
-  height: 404px;
-  border: 1px solid #eee;
+  flex-basis: calc((100% / 60) / 3);
+  outline: 1px solid #eee;
 }
 
 .text-wrapper {
