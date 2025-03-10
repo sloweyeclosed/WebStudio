@@ -158,16 +158,16 @@ nav a[href="#"] {
 }
 
 .antena-svg::before {
-  background: url("../icon/antenna.svg") center no-repeat;
+  background: url("../icon/antenna.jpg") center no-repeat;
 }
 .watch-svg::before {
-  background: url("../icon/watch.svg") center no-repeat;
+  background: url("../icon/watch.jpg") center no-repeat;
 }
 .comp-svg::before {
-  background: url("../icon/comp.svg") center no-repeat;
+  background: url("../icon/comp.jpg") center no-repeat;
 }
 .planet-svg::before {
-  background: url("../icon/antenna.svg") center no-repeat;
+  background: url("../icon/antenna.jpg") center no-repeat;
 }
 
 .advantages-item::before {
