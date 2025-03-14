@@ -3,7 +3,8 @@
   --logo: #000000;
   --title-nav-h: #212121;
   --p-title: #757575;
-  --hero-section-footer-bg: #2f303a;
+  --footer-bg: #2f303a;
+  --bg-hero: #2f303a40;
   --teams-bg-button-port: #f5f4fa;
   --bg-text-footer: #ffffff;
   --footer-address: rgba(255, 255, 255, 0.6);
@@ -107,10 +108,14 @@ nav a[href="#"] {
 }
 
 .hero {
-  padding: 200px 0;
-  background-color: var(--hero-section-footer-bg);
+  background: url("../img/bg-hero.jpg") center / cover no-repeat;
 }
-
+.hero-bg {
+  padding: 200px 0;
+}
+.hero-wrapper {
+  background-color: var(--bg-hero);
+}
 .hero-title {
   width: 696px;
   margin: 0 auto;
