@@ -109,11 +109,20 @@ nav a[href="#"] {
 
 .hero {
   background: url("../img/bg-hero.jpg") center / cover no-repeat;
+  position: relative;
+  z-index: 1;
 }
 .hero-bg {
   padding: 200px 0;
 }
-.hero-wrapper {
+
+.hero::before {
+  content: "";
+  z-index: -1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
   background-color: var(--bg-hero);
 }
 .hero-title {
@@ -131,6 +140,7 @@ nav a[href="#"] {
 
 .btn {
   display: block;
+
   width: 216px;
   height: 50px;
   margin: 0 auto;
