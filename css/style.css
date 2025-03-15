@@ -242,6 +242,8 @@ nav a[href="#"] {
 
 .team-item {
   max-width: 270px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   text-align: center;
   background-color: var(--bg-text-footer);
 
@@ -269,7 +271,7 @@ nav a[href="#"] {
 
 .footer {
   padding: 60px 0;
-  background-color: var(--hero-section-footer-bg);
+  background-color: var(--footer-bg);
 }
 .footer span {
   color: var(--bg-text-footer);
