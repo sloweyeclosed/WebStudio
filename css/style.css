@@ -103,6 +103,7 @@ nav a[href="#"]::after {
   line-height: normal;
   letter-spacing: 0.28px;
 }
+
 .header-link:hover {
   color: var(--hover-button-span);
 }
@@ -111,10 +112,12 @@ nav a[href="#"]::after {
   display: flex;
   gap: 30px;
 }
+
 .address-item {
   display: flex;
   align-items: center;
 }
+
 .address-item:hover {
   .header-link {
     color: var(--hover-button-span);
@@ -123,10 +126,12 @@ nav a[href="#"]::after {
     fill: var(--hover-button-span);
   }
 }
+
 .header-svg {
   fill: var(--svg);
   transition: all 0.4s ease;
 }
+
 .header-mail {
   width: 16px;
   height: 12px;
@@ -387,6 +392,7 @@ nav a[href="#"]::after {
   transition: all 0.4s ease;
   padding: 16px 32px;
   border: 1px solid var(--svg);
+  border-radius: 4px;
 }
 
 .clietns-item:hover {
