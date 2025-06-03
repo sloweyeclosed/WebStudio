@@ -61,7 +61,9 @@
       <section class="hero">
         <div class="container hero-bg">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="btn">Замовити послугу</button>
+          <button type="button" data-modal-open class="btn">
+            Замовити послугу
+          </button>
         </div>
       </section>
       <section class="advantages">
@@ -319,5 +321,68 @@
         </div>
       </div>
     </footer>
+    <div class="data-modal is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-close" data-modal-close>
+          <svg class="modal-svg">
+            <use href="./icon/sprite.svg#close-modal"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+        <form class="modal-form">
+          <div class="form-fieldset">
+            <label for="name" class="form-label">Ім'я</label>
+            <div class="input-wrapper">
+              <input type="text" name="name" class="form-input" id="name" />
+              <svg class="form-svg">
+                <use href="./icon/sprite.svg#human"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-fieldset">
+            <label for="tel" class="form-label">Телефон</label>
+            <div class="input-wrapper">
+              <input type="tel" name="tel" class="form-input" id="tel" />
+              <svg class="form-svg">
+                <use href="./icon/sprite.svg#phone-modal"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-fieldset">
+            <label for="email" class="form-label">Пошта</label>
+            <div class="input-wrapper">
+              <input type="email" name="email" class="form-input" id="email" />
+              <svg class="form-svg">
+                <use href="./icon/sprite.svg#mail-modal"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-fieldset-last">
+            <label for="number" class="form-label">Коментар</label>
+            <div class="textarea-wrapper">
+              <textarea
+                name="number"
+                id="number"
+                class="form-textarea"
+                placeholder="Ваше повідомлення"
+              ></textarea>
+            </div>
+          </div>
+          <div class="form-checkbox-privacy">
+            <input
+              type="checkbox"
+              class="form-prv"
+              name="privacy"
+              id="privacy"
+            />
+            <p class="privacy-text">
+              Погоджуюся з розсилкою та приймаю <span>Умови договору</span>
+            </p>
+          </div>
+          <button type="submit" class="form-btn">Відправити</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
