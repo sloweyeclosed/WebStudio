@@ -117,14 +117,11 @@ nav a[href="#"]::after {
   display: flex;
   align-items: center;
 }
-
-.address-item:hover {
-  .header-link {
-    color: var(--hover-button-span);
-  }
-  .header-svg {
-    fill: var(--hover-button-span);
-  }
+.address-item:hover .header-link {
+  color: var(--hover-button-span);
+}
+.address-item:hover .header-svg {
+  fill: var(--hover-button-span);
 }
 
 .header-svg {
