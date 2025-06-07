@@ -609,6 +609,7 @@ nav a[href="#"]::after {
   transition: all 0.4s ease;
   height: 40px;
   border-radius: 4px;
+
   outline: none;
   font-size: 15px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -652,10 +653,6 @@ nav a[href="#"]::after {
   border-radius: 4px;
   font-size: 15px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-}
-
-.form-textarea:focus {
-  border-color: var(--hover-button-span);
 }
 
 .form-textarea::placeholder {
@@ -747,14 +744,14 @@ nav a[href="#"]::after {
 
 @keyframes border {
   0% {
-    border: 1px solid var(--footer-border);
+    border-color: var(--footer-border);
   }
 
   50% {
-    border: 1px solid var(--hover-button-span);
+    border-color: var(--hover-button-span);
   }
   100% {
-    border: 1px solid var(--footer-border);
+    border-color: var(--footer-border);
   }
 }
 
