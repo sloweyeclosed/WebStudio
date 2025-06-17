@@ -537,8 +537,8 @@ nav a[href="#"]::after {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 294px;
-  background-color: var(--hover-button-span);
+  height: 295px;
+  background-color: #2196f3e5;
   padding: 63px 24px;
 
   color: var(--bg-text-footer);
